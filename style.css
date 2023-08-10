@@ -1,0 +1,138 @@
+body{
+    height: 100vh;
+    background: #EBF1FF !important;
+}
+.main-page{
+    height:70vh
+}
+.header{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 264px;
+    height: 150px;
+    margin-left: 70px;
+}
+.pharmacytext{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+.Natinal-span{
+    font-size: 40px;
+    font-weight: 600;
+}
+.pharrmacyspan{
+    font-size: 40px;
+    font-weight: 600;
+    color:#003F8C; 
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.main-content{
+    display: flex;
+    height: 66vh;
+    margin-top: 222px;
+    margin-left: 60px;
+}
+.button-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
+    margin-top: -31px;
+}
+.button-div img{
+    width: 450px;
+}
+.main-img{
+    margin-left: auto;
+    margin-top: -90px;
+}
+.main-img img{
+    width: 610px;
+    margin-left: auto;
+    display: flex;
+}
+img.hover2:hover img {
+    display: none
+  }
+  img.onhover2:hover::after {
+    content: url('./hover2.svg');
+  }
+  .buttonimg {
+    width: 450px;
+    height: 195px;
+    background: url("./Frame\ 427319498.svg") no-repeat;
+    margin: 50px;
+    background-size: 400px;
+}
+.buttonimg:hover {
+    background: url("./hover2.svg") no-repeat;
+    background-size: 400px;
+}
+.buttonimg2 {
+    width: 450px;
+    height: 195px;
+    background: url("./Frame\ 427319499.svg") no-repeat;
+    margin: 50px;
+    background-size: 400px;
+    margin-top:-97px
+}
+.buttonimg2:hover {
+    background: url("./hover1.svg") no-repeat;
+    background-size: 400px;
+}
+@media only screen and (max-width: 850px){
+  footer{
+    display: none !important;
+  } 
+  .header{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.pharmacytext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px !important;
+    margin-top: 80px;
+    margin-right: 70px !important;
+    /* width: 201px; */
+}
+.pharrmacyspan{
+    font-size: 40px;
+    font-weight: 600;
+    color: #003F8C;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.adressspan{
+    white-space: nowrap;
+}
+.main-content{
+    display: flex;
+    height: 100%;
+    margin-top: 392px;
+    margin-left: 60px;
+}
+.main-img{
+    display: none;
+}
+
+}
+@media only screen and (max-width: 1399px){
+.pharmacytext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 390px;
+    margin-top: 30px;
+}
+footer{
+    display: none !important;
+}
+
+}
